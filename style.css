@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    display: flex;
+}
+
+.preto{ background-color: black;    
+  position: sticky; 
+  width: 15%;
+  height: 1000px;
+  top: 0;
+ }
+.header a { color:white; 
+    list-style:none;
+text-decoration: none;}
+
+ header a:hover{fill: #df0e62;}
+   
+    svg {width: 15px;
+    fill:#ffff;
+        padding-right:20px;}
+    svg:hover{ fill: #df0e62;}
+
+    #foto1{background-image: url(https://preview.colorlib.com/theme/elit/images/img_9.jpg.webp);
+        background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.4);
+    
+      width:90%;}
+
+      .welcome{
+        height: 100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+      }
+      
+       .welcome2{
+        height:100vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+       .welcome3{
+        font-size:64px;
+        color:#ffffff;
+        font-family: "Oswald",sans-serif;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+       }
+.loremipsum{
+    font-family: "Quicksand";
+    font-size:20px;
+    color:#ffffff;
+    width:57%;
+    text-align:center;
+}
+.contact_me{
+    border-radius:30px;
+    border:none;
+    background-color: #df0e62;
+    width:120px;
+    height:40px;
+}
+
+.foto1 {
+    width: 85%;
+}  
+foto1 {
+    width: 85%;
+}
+.imagens{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.foto{
+    height: 300px;
+    width: 33%;
+    border: solid 1px black;
+
+}
+.imagens img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.TESTIMONIAL{
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+}.foto2{
+    text-align: center;
+}
+.testimonial_text{
+    color: #ffffff;
+    text-align: center;
+}
+#testimonial_text2{
+    font-size: 1rem;
+}
+.testimonial_text3{
+    color: #808080;
+    text-align: center;
+}
+.BIOGRAPHY{
+    background-color: rgb(61, 60, 60);
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    
+}
+.BIOGRAPHY_text{
+    color: #ffffff;
+    text-align: left;
+    
+}
+.foto3{
+    text-align: center;
+    width: 200px;   
+}
+.foto33{
+    width: 400px;
+}
+.P{
+    color: #ffffff;
+    text-align: center;
+}
+.centro{
+    text-align: left;
+    width: 45%;
+}
